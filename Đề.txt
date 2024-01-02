@@ -1,0 +1,108 @@
+Cho danh sách số nguyên gồm N phần từ nhập vào bàn phím.
+a. Nhập các phần tử từ bàn phím vào danh sách trên
+b. Tính tổng số nguyên tố có trong danh sách trên
+c. Cho 1 số K từ bàn phím. Hãy tìm thứ tự của phần tử trong danh sách có giá trị bằng với K.
+d. Nhập số X là số sẽ được thêm vào mảng. Y là vị trí thêm vào của X.
+Example:
+Cho mảng [1, 2, 3 ,4] -> X là 5, Y là 2 -> [1, 2, 5, 3, 4]
+
+
+Cho 2 danh sách gồm 5 phần tử tự nhập, 
+a. Tìm ra tổng các số giống nhau trong 2 danh sách trên
+b.  In ra tổng các số khác nhau trong 2 danh sách trên
+c. Cho số K. Tìm xem số K có phải là số trùng lặp trong 2 danh sách không. 
+
+
+Cho danh sách số nguyên từ gồm N phần từ với N nhập từ bàn phím. (Bài khó)
+a.  Hãy tìm ra số bị khuyết trong danh sách trên theo thứ tự từ 1 đến N.
+example: N là 10. [1,2,5,6,7,9] -> Số bị khuyết là 3, 4, 8, 10
+	
+Viet mot chuong trinh quan ly lop hoc (Su dung dict de quan ly 1 thong hoc sinh). Va dung list de quan ly danh sach cac hoc sinh.
+list[dict()]
+
+a. Tao ra danh sach lop voi thong tin tung hoc sinh nhu sau: 
+class: str
+name: str
+age: int
+grade: int
+
+b.In ra cac hoc sinh co cung ten lop
+Lop A: [student1, student2,]
+c. Tim ra hoc sinh co so diem cao nhat (tim grade max) chỉ in ra tên học sinh.
+
+
+BTVN: Viết chương trình khai báo kiểu dict để biểu diễn 1 phân số. Hãy thực hiện các hoạt động sau:
+Nhập và xuất 2 phân số
+Rút gọn phân số
+So sánh 2 phân số
+Tính tổng 2 phân số
+Viết chương trình nhập vào 1 dãy phân số
+Xuất dãy phân số vừa nhập
+      i. Tìm phân số lớn nhất trong dãy phân số
+Tính tổng các phân số trong dãy
+Viết chương trình quản lý thư viện dùng để quản lý các thông tin mỗi cuốn sách. Mỗi cuốn sách có các thông tin sau: mã số sách, tên sách, tác giả, số lượng,
+Nhập vào danh sách các cuốn sách, tối đa 10 cuốn sách
+nhập vào tên quyển sách in ra thông tin đầy đủ của cuốn sách đó. Nếu không tìm thấy thì in không tìm thấy
+Tính tổng số sách có trong thư viện
+Nhập vào tên tác giả tìm ra tất cả cuốn sách có cùng tên tác giả
+
+
+Viết một chương trình tinh võ giao đấu của phái võ lâm. Nhiệm vụ của người chơi là đầu tiên chọn môn phái và nhân vật giao đấu với đối thủ.
+Phái:
+Hệ Kim gồm Thiếu Lâm, Thiên Vương.	
+Hệ Mộc gồm Đường môn, Ngũ độ
+Hệ thuỷ gồm Nga Mi, Thuý Yên
+Hệ Hoả gồm Cái bang, Thiên nhẫn
+Hệ Thổ gồm Võ Đang, Côn Lôn
+
+Sau khi chọn Môn phái, Người chơi phải nhập tên cho nhân vật của mình. Và hệ thống sẽ khởi tạo nhân vật với level 1 và sát thương tương ứng như sau:
+Thiếu Lâm: 43
+Thiên Vương: 40
+Đường Môn: 48
+Ngũ độc: 47
+Nga Mi: 45
+Thuý yên: 49
+Cái bang: 44
+Thiên Nhẫn: 42
+Võ Đang: 42
+Côn Lôn: 45
+
+Hệ thống tính dame ngũ hành:
+
+Hệ Hoả -> Hệ Kim -> Sát thương hoả  20 %
+Hệ Kim -> Hệ Mộc -> Sát thương mộc 25%
+Hệ Mộc -> Hệ Thổ -> Sát thuơng 20%
+Hệ Thổ -> Hệ thuỷ -> sát thương 10%
+Hệ Thuỷ -> Hệ Hoả sát thương 15%
+
+Hệ thống kinh nghiệm:
+Giết 1 quái lên 1 cấp.
+Giết 1 quái lên sẽ lên 2 cấp.
+
+Sát thương theo cấp sẽ là: Level nhân vật + cấp độ * 10 %
+
+Chương trình chơi bắt đầu như sau.
+Cả 2 người chơi sẽ được đưa vào 1 map thi đầu bao gồm 10 con quái nhỏ và 1 con quái to.
+Hệ ngũ hành của quái sẽ là ngẫu nhiên, Level của chúng sẽ là ngẫu nhiên từ 1 - 6..
+Riêng boss lớn là level 7 - 10. Dame cơ bản của boss nhỏ là 38, Boss lớn 42
+
+Sau khi giao đấu trong map quái vật thành công.
+Thì sẽ cho 2 nhân vật giao chiến với nhau. Tìm ra người thắng cuộc cuối cùng.
+
+8. Write Python code to open a file named demo.txt and write some random data into it.
+
+Open the file, read the contents and display them as output.
+
+Write python code to add additional text to the existing file on a new line without deleting the previous contents.
+
+9. Cho 1 danh sách số từ 1 đến 5 theo từng hàng 1 trong file number.txt
+1
+2
+3
+4
+5
+Đọc file và tính tổng dãy số
+Nhập vào số bất kỳ in ra số dòng trong file nếu k thấy trả về None
+Ghi đè dãy số tương ứng với 1 số K nhập vào bàn phím. Ví dụ : k = 3
+		Giá trị đè bằng số cuối + 1 đến số cuôí + k
+		
