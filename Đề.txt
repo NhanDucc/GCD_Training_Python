@@ -1,0 +1,25 @@
+Bài 1: List Processing - Advanced
+Viết một chương trình Python thực hiện các thao tác sau trên một danh sách gồm các số nguyên:
+
+Nhập vào một danh sách gồm N số nguyên từ người dùng.
+Sắp xếp danh sách theo thứ tự giảm dần.
+Tìm và in ra các số nguyên tố trong danh sách.
+Tạo một danh sách mới chứa các số là bội của 3 từ danh sách ban đầu và in danh sách mới.
+
+
+Bài 2: File Processing - Advanced
+Viết một chương trình Python xử lý tập tin văn bản "input.txt":
+
+Đọc nội dung của tập tin.
+Đếm số lượng từ duy nhất (không tính trùng lặp) xuất hiện trong tập tin.
+Tạo một tập tin mới có tên "output.txt" và ghi lại các từ đã đếm theo thứ tự từ điển.
+
+
+Bài 3: Dict and OOP - Advanced (Dict-based OOP Exercise)
+Xem xét việc quản lý thông tin các mặt hàng trong kho của một cửa hàng. Hãy tạo một chương trình sử dụng dict và hướng đối tượng để thực hiện các tác vụ sau:
+
+Định nghĩa một lớp tên là "Product" có các thuộc tính: "id", "name", "price", "quantity".
+Viết phương thức để tính tổng giá trị (price * quantity) của mỗi mặt hàng.
+Tạo một danh sách các đối tượng mặt hàng với thông tin tương ứng.
+Tính tổng giá trị của toàn bộ kho hàng.
+In ra thông tin của các mặt hàng có giá trị lớn nhất và nhỏ nhất.
